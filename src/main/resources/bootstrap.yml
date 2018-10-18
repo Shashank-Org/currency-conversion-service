@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: currency-convertor-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+  profiles:
+    active: dev
+    
+server:
+  port: 8020
+
+#currency-exchange-service:
+#  ribbon:
+#    lisrOfServers: http://localhost:8000,http://localhost:8001
